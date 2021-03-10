@@ -36,6 +36,12 @@ main, .content{ /*o main vai estilizar toda a pagina / o contente a parte embaix
     font-size: 30px;
 }
 
+.text-destaque h2{
+    text-transform: uppercase;
+    color: #818181;   
+    font-size: 15px;
+}
+
 .text-destaque strong{
     color: #646464;
 }
