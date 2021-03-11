@@ -18,7 +18,7 @@ main, .content{ /*o main vai estilizar toda a pagina / o contente a parte embaix
     position: relative;
 }
 
-.col-100{
+.col-100{ /*seria o content com 100%*/
     width: 100%;
     float: left;
     position: relative;
@@ -302,4 +302,18 @@ button.slick-next{
     float: right;
     margin-left: 15px;
   
+}
+
+.footer h3 {
+    text-align: left;
+    color: white;
+}
+
+.footer{
+    color: white;
+}
+
+.footer p{
+    width: 90px;
+    text-align: center;
 }
