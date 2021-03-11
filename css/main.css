@@ -22,6 +22,7 @@ main, .content{ /*o main vai estilizar toda a pagina / o contente a parte embaix
     width: 100%;
     float: left;
     position: relative;
+    border: 1px solid #00bac6;
     
 }
 
@@ -240,11 +241,11 @@ button.slick-next{
 .bloco-imagens-texto {
     background-color: #eeeeee;
 }
-.bloco-imagens-texto:before {
+.bloco-imagens-texto:before { /*triangulo no backgroud das fotos*/
     width: 100%;
     display: inline-block;
     content: '';
-    height: 52px;
+    height: 49px;
     background: #ffffff;
     background-image: url('../img/setinha.png');
     background-repeat: no-repeat;
@@ -258,3 +259,47 @@ button.slick-next{
     background: #eeeeee;
 } 
 
+/*BLOCOS LOGOS*/
+
+.bloco-logos {
+    height: 170px;/*altura da div que vai ficar as logos*/
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+    /*css de das imagens da logo*/
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+ cursor: pointer; /*vai colocar um mazinha em cima quando passar o mouse*/
+
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.footer{
+    background-color: #505251;
+    height: 326px;
+}
+
+.rede-sociais-footer{
+    background-color: #292622;
+    width: 100%;
+    
+    
+}
+
+.rede-sociais-footer ul li{
+    float: right;
+    margin-left: 15px;
+  
+}
