@@ -22,7 +22,7 @@ main, .content{ /*o main vai estilizar toda a pagina / o contente a parte embaix
     width: 100%;
     float: left;
     position: relative;
-    border-bottom: 3px solid #00bac6 ;
+    
 }
 
 /*CORPO DO SITE*/
@@ -33,22 +33,26 @@ main, .content{ /*o main vai estilizar toda a pagina / o contente a parte embaix
 .text-destaque h1{
     text-transform: uppercase;
     color: #818181;   
-    font-size: 30px;
+    font-size: normal;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .text-destaque h2{
-    text-transform: uppercase;
+    text-transform:capitalize;
     color: #818181;   
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .text-destaque strong{
     color: #646464;
+   
+  
 }
 
 .text-destaque p{
     color: #9a9a9a;
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /* HEADER 1 -  LOGO E MIDIAS SOCIAIS*/
@@ -58,8 +62,8 @@ main, .content{ /*o main vai estilizar toda a pagina / o contente a parte embaix
     width: 70%;
 }
 .rede-sociais ul li {
-    margin-left: 15px;
     display: inline-block;
+    margin-left: 15px;
     float: left;
     list-style: none;
 }
@@ -190,8 +194,67 @@ button.slick-next{
 
 }
 
+/*TEXTO PRINCIPAL*/
+/*<div> que estao as imagens do computador, note e foto*/
+
+/**/
+
+.col-3{/*deixar as <div> uma ao lado da outra / O tamanho da div 979.99x180.24*/
+    padding-left: 15px; /*vai dar um espacamento entro o texto*/
+    padding-right: 15px; 
+    width: 29%; /*sao 3 <div>, entao 100% dividido por 3* entao cada div vai ter 33.3% de largura, porem colocamos um pouco menor para caber os 3 na mesma linha com o pandding*/
+    float: left;
+    position: relative;
+   
+}
+
+.bloco-text{
+    margin-top: 2em; /*distancia as 3 imagens do texto principal*/
+}
+
+.bloco-text2{
+    margin-top: 4em; /*distancia as 3 imagens do texto principal*/
+}
 
 
+/*BLOCO IMAGENS*/
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #00bac6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
 
-
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} 
 

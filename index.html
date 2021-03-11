@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+
+    <!-- Slick (banner com movimento)
+        aqui ele vai precisar de uma requisicao direto do servidor:
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    -->
+    
     <title>Primeiro Projeto</title>
 </head>
 <body>
@@ -90,42 +96,123 @@
     </div>
 
     <!--conteudo abaixo do banner-->
-    <div class="col-100"> 
+    <div class="col-100 "> 
         <div class="content text-destaque">
             <h1>Lorem ipsum is <strong>simply dummy </strong>of the printing. </h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit exercitationem pariatur minus, amet nulla necessitatibus totam dicta distinctio delectus adipisci deleniti, alias, at aspernatur illo cumque excepturi perferendis ut.</p>
 
-            <div class="col-3">
+            <div class="col-3 bloco-text">
                 <img src="./img/content-1.png" alt="photo">
-                <h2><strong>Lorem ipsum</strong></h2>
+                <h2><strong>Lorem ipsum</strong> is simply</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit exercitationem pariatur minus, amet nulla </p>
 
             </div>
-            <div class="col-3">
+            <div class="col-3 bloco-text2">
                 <img src="./img/content-2.png" alt="photo">
-                <h2><strong>Lorem ipsum</strong></h2>
+                <h2><strong>Lorem ipsum</strong> is simply</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit exercitationem pariatur minus, amet nulla </p>
 
             </div>
-            <div class="col-3">
+            <div class="col-3 bloco-text">
                 <img src="./img/content-3.png" alt="photo">
-                <h2><strong>Lorem ipsum</strong></h2>
+                <h2><strong>Lorem ipsum</strong> is simply</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A odit exercitationem pariatur minus, amet nulla </p>
             </div>
 
+            
+            
 
         </div>
 
     </div>
 
+    <!--esta o o segundo bloco cinza com imagens-->
 
+    <div class="col-100 bloco-imagens-texto">
+        <div class="content" style="margin-left: 18%; float: left;">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem1.png">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem2.png">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem3.png">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+        </div>
+
+        <div class="content" style="margin-left: 18%; float: left;">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem1.png">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem2.png">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem3.png">
+                <p><b>Lorem Ipsum is simply</b></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                    industry. Lorem
+                    Ipsum has been
+                    the and scrambled it.
+                    atype specimen
+                </p>
+            </div>
+        </div>
+    </div>
 
 
     <!--Javascript-->
+    <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+   
+    
+    <!--Slick (banner com movimento) - 
+        src abaixo foi copiado do site (https://kenwheeler.github.io/slick/)
+        Ele e carregado direto do site, ele vai carrega fora do meu servido:
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
    
+    -->
+
 </body>
 </html>
